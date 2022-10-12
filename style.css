@@ -1,19 +1,24 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 /* Write CSS code below */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+
 body {
     background: #d1dde2;
     display: block; 
     margin: 8px;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+
 section {
-    background-color: aqua;
+  
     display: block;
 }
 .left-section {
@@ -123,7 +128,7 @@ i {
 
 
 
-.right-section {
+.right-main-content {
     padding: 2rem 3rem;
 }
 
